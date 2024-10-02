@@ -146,14 +146,14 @@ header{
 
 .Heading-div {
     position: absolute;
-    bottom: 10%; /* Adjusted for better responsiveness */
+    bottom: 10%; 
     left: 50%;
-    transform: translateX(-50%); /* Centering the div */
-    width: 90%; /* Responsive width */
+    transform: translateX(-50%); 
+    width: 90%; 
     color: white;
-    font-size: 4vw; /* Responsive font size */
+    font-size: 4vw; 
     text-align: center;
-    padding: 10px; /* Padding for better touch target */
+    padding: 10px; 
 }
 
 #Heading-img {
