@@ -9,7 +9,8 @@ btn.addEventListener("click", (event) => {
     event.preventDefault(); 
 
     let hasError = false;
-
+    
+    //If all Feilds are empty
     if (
         username.value === "" && 
         email.value === "" && 
@@ -21,7 +22,7 @@ btn.addEventListener("click", (event) => {
         hasError = true;
     }
 
-    // If not all fields are empty, validate each field individually
+    // If not all fields are empty
     if (!hasError) {
         // Username validation
         if (username.value === "") {
